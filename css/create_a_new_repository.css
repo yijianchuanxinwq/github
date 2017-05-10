@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+/*0.头部样式*/
+.header{
+	height: 80px;
+	background: black;
+	line-height: 80px;
+}
+.header span{
+	color: white;
+	font-weight: 800;
+	margin: 30px;
+}
+.header .leftH{
+	margin-left: 300px;
+}
+.header .firstH{
+	margin-left: 300px;
+}
+.header span select{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: right;
+	outline: 0px;
+}
+.header span select option{
+	text-align: right;
+}
+/*1.一个大容器*/
+.container{
+	width: 980px;
+	/*border: 1px solid lightgray;*/
+	margin: auto;
+}
+/*1.1大容器的头部*/
+.containerT{
+	text-align: left;
+}
+.containerT h3{
+	font-size: 16px;
+	color: black;
+	margin: 10px 0px;
+}
+.containerT h6{
+	font-size: 12px;
+	color: lightgrey;
+}
+/*1.2大容器的内容部分*/
+.containerC{
+	/*border: 1px solid red;*/
+}
+.containerC li{
+	list-style-type: none;
+	margin: 20px 0px;
+}
+.containerC span{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	border: 1px solid lightgray;
+	vertical-align: middle;
+}
+.containerC input{
+	width: 80%;
+	outline: 0px;
+}
+.special input{
+	width: 20px;
+}
+.special4 select{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0px;
+}
+/*1.3大容器的底层,确定层*/
+.containerB{
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border: 1px solid lightgray;
+	background: green;
+	color: white;
+	font-weight: bold;
+}
